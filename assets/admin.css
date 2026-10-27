@@ -1,0 +1,198 @@
+.scdc-admin-page .notice { border-radius: 8px; }
+.scdc-page-hero {
+    background: #ffffff;
+    border: 1px solid #dbe3ef;
+    border-left: 4px solid #2563eb;
+    border-radius: 10px;
+    margin: 10px 0 16px;
+    padding: 18px 20px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+}
+.scdc-page-hero h1 {
+    color: #0f172a;
+    margin: 0 0 6px;
+    font-size: 24px;
+    line-height: 1.25;
+}
+.scdc-page-hero p {
+    margin: 0;
+    color: #475467;
+    font-size: 13px;
+}
+.scdc-hero-chips {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.scdc-hero-chip {
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid #d0d5dd;
+    background: #f8fafc;
+    color: #344054;
+}
+.scdc-hero-chip.is-on {
+    border-color: #93c5fd;
+    background: #eff6ff;
+    color: #1d4ed8;
+}
+.scdc-global-settings-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
+    border: 1px solid #dbe3ef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.scdc-global-settings-table tr th,
+.scdc-global-settings-table tr td {
+    background: #fff;
+    border-top: 1px solid #eaecf0;
+    padding: 14px 16px !important;
+}
+.scdc-global-settings-table tr:first-child th,
+.scdc-global-settings-table tr:first-child td {
+    border-top: 0;
+}
+.scdc-global-settings-table tr th {
+    width: 280px;
+    color: #101828;
+}
+.scdc-global-settings-table .scdc-title-row th {
+    background: #f8fafc;
+    color: #475467;
+    text-transform: uppercase;
+    letter-spacing: .45px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.scdc-global-settings-table input[type="text"],
+.scdc-global-settings-table input[type="password"],
+.scdc-global-settings-table input[type="number"],
+.scdc-global-settings-table select {
+    border-radius: 8px;
+    border-color: #d0d5dd;
+    min-height: 38px;
+}
+.scdc-global-settings-table input:focus,
+.scdc-global-settings-table select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+}
+.scdc-global-settings-table .description {
+    color: #667085;
+}
+.scdc-primary-btn {
+    background: #2563eb !important;
+    border-color: #1d4ed8 !important;
+    color: #fff !important;
+}
+.scdc-primary-btn:hover {
+    background: #1d4ed8 !important;
+}
+.scdc-secondary-btn {
+    border-color: #cbd5e1 !important;
+    color: #334155 !important;
+    background: #fff !important;
+}
+.scdc-secondary-btn:hover {
+    background: #f8fafc !important;
+    border-color: #94a3b8 !important;
+}
+.scdc-hidden-row {
+    opacity: 0.45;
+}
+#scdc-carriers-select {
+    min-height: 190px;
+    font-size: 13px;
+}
+.scdc-admin-page .select2-container {
+    min-width: 420px;
+    max-width: 680px;
+}
+.scdc-admin-page .select2-container--default .select2-selection--multiple {
+    border-color: #d0d5dd;
+    border-radius: 8px;
+    min-height: 40px;
+}
+.scdc-admin-page .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+}
+.scdc-admin-page .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    color: #1d4ed8;
+    border-radius: 999px;
+    padding: 1px 8px;
+}
+.scdc-status-card {
+    background: #f8fafc;
+    border: 1px solid #dbe3ef;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 0 0 14px;
+}
+.scdc-status-card h4 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    color: #0f172a;
+}
+.scdc-status-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 8px;
+}
+.scdc-status-item {
+    background: #fff;
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #334155;
+}
+.scdc-status-item strong {
+    display: block;
+    color: #475467;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.scdc-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 6px;
+}
+.scdc-pill-on {
+    background: #dcfce7;
+    color: #166534;
+}
+.scdc-pill-off {
+    background: #e2e8f0;
+    color: #334155;
+}
+.scdc-warning-note {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b45309;
+}
+.scdc-global-settings-table .widefat td,
+.scdc-global-settings-table .widefat th {
+    vertical-align: top;
+}
+.scdc-global-settings-table .widefat input[type="text"],
+.scdc-global-settings-table .widefat textarea {
+    width: 100%;
+    min-width: 120px;
+}
+.scdc-api-health-note {
+    margin: 10px 0 0;
+    color: #92400e;
+    font-size: 12px;
+}
